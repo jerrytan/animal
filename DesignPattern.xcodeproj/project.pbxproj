@@ -8,10 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		AD7B23E716CFD50A002BD74C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7B23E616CFD50A002BD74C /* Foundation.framework */; };
-		AD7B23EA16CFD50A002BD74C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7B23E916CFD50A002BD74C /* main.m */; };
-		AD7B23EE16CFD50A002BD74C /* DesignPattern.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = AD7B23ED16CFD50A002BD74C /* DesignPattern.1 */; };
-		AD7B23F616CFD542002BD74C /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7B23F516CFD542002BD74C /* Animal.m */; };
-		AD7B23F916CFD938002BD74C /* Wolf.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7B23F816CFD938002BD74C /* Wolf.m */; };
+		ADBD47E716D0A8B200DE8EDC /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBD47E616D0A8B200DE8EDC /* Animal.m */; };
+		ADBD47EA16D0A8D200DE8EDC /* Wolf.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBD47E916D0A8D200DE8EDC /* Wolf.m */; };
+		ADBD47EC16D0A8D900DE8EDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBD47EB16D0A8D900DE8EDC /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -21,7 +20,6 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				AD7B23EE16CFD50A002BD74C /* DesignPattern.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -30,13 +28,13 @@
 /* Begin PBXFileReference section */
 		AD7B23E316CFD50A002BD74C /* DesignPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD7B23E616CFD50A002BD74C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		AD7B23E916CFD50A002BD74C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD7B23EC16CFD50A002BD74C /* DesignPattern-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DesignPattern-Prefix.pch"; sourceTree = "<group>"; };
-		AD7B23ED16CFD50A002BD74C /* DesignPattern.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DesignPattern.1; sourceTree = "<group>"; };
-		AD7B23F416CFD542002BD74C /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
-		AD7B23F516CFD542002BD74C /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
-		AD7B23F716CFD938002BD74C /* Wolf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wolf.h; sourceTree = "<group>"; };
-		AD7B23F816CFD938002BD74C /* Wolf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wolf.m; sourceTree = "<group>"; };
+		ADBD47E516D0A8B200DE8EDC /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		ADBD47E616D0A8B200DE8EDC /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		ADBD47E816D0A8D200DE8EDC /* Wolf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wolf.h; sourceTree = "<group>"; };
+		ADBD47E916D0A8D200DE8EDC /* Wolf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wolf.m; sourceTree = "<group>"; };
+		ADBD47EB16D0A8D900DE8EDC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADBD47ED16D0A94E00DE8EDC /* DesignPattern.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = DesignPattern.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +52,12 @@
 		AD7B23DA16CFD509002BD74C = {
 			isa = PBXGroup;
 			children = (
+				ADBD47ED16D0A94E00DE8EDC /* DesignPattern.1 */,
+				ADBD47EB16D0A8D900DE8EDC /* main.m */,
+				ADBD47E816D0A8D200DE8EDC /* Wolf.h */,
+				ADBD47E916D0A8D200DE8EDC /* Wolf.m */,
+				ADBD47E516D0A8B200DE8EDC /* Animal.h */,
+				ADBD47E616D0A8B200DE8EDC /* Animal.m */,
 				AD7B23E816CFD50A002BD74C /* DesignPattern */,
 				AD7B23E516CFD50A002BD74C /* Frameworks */,
 				AD7B23E416CFD50A002BD74C /* Products */,
@@ -79,12 +83,6 @@
 		AD7B23E816CFD50A002BD74C /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
-				AD7B23E916CFD50A002BD74C /* main.m */,
-				AD7B23F416CFD542002BD74C /* Animal.h */,
-				AD7B23F516CFD542002BD74C /* Animal.m */,
-				AD7B23F716CFD938002BD74C /* Wolf.h */,
-				AD7B23F816CFD938002BD74C /* Wolf.m */,
-				AD7B23ED16CFD50A002BD74C /* DesignPattern.1 */,
 				AD7B23EB16CFD50A002BD74C /* Supporting Files */,
 			);
 			path = DesignPattern;
@@ -149,9 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD7B23EA16CFD50A002BD74C /* main.m in Sources */,
-				AD7B23F616CFD542002BD74C /* Animal.m in Sources */,
-				AD7B23F916CFD938002BD74C /* Wolf.m in Sources */,
+				ADBD47E716D0A8B200DE8EDC /* Animal.m in Sources */,
+				ADBD47EA16D0A8D200DE8EDC /* Wolf.m in Sources */,
+				ADBD47EC16D0A8D900DE8EDC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +250,7 @@
 				AD7B23F316CFD50A002BD74C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

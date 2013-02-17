@@ -1,25 +1,21 @@
 //
-//  Animal.m
+//  Wolf.m
 //  DesignPattern
 //
 //  Created by tan zhongyi on 13-2-16.
 //  Copyright (c) 2013年 Sanny. All rights reserved.
 //
 
-#import "Animal.h"
+#import "Wolf.h"
 
-@implementation Animal
+@implementation Wolf
 
 - (id) init {
+    
     if (self = [super init]) {
-        name = @"Animal";
+        name = @"Wolf";
     }
     return self;
     
 }
-
-- (NSString*) name {
-    return name;
-}
-
 @end

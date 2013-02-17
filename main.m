@@ -17,11 +17,12 @@ int main(int argc, const char * argv[])
         
         // insert code here...
         //NSLog(@"Hello, World!");
+        Animal *animal = [Wolf new];
+        NSLog(@"The name of the animal is %@",[animal name]);
         
     }
     
-    Animal *animal = [Wolf new];
-    NSLog(@"The name of the animal is %@",[animal name]);
+   
     
     return 0;
 }

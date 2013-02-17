@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface Animal : NSObject {
+    
     //the name of the animal
     NSString* name;
     
