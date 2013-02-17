@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Animal.h"
 #import "Wolf.h"
+#import "Dog.h"
 
 int main(int argc, const char * argv[])
 {
@@ -17,8 +18,10 @@ int main(int argc, const char * argv[])
         
         // insert code here...
         //NSLog(@"Hello, World!");
-        Animal *animal = [Wolf new];
-        NSLog(@"The name of the animal is %@",[animal name]);
+    //Animal *animal = [Wolf new];
+    Animal *animal = [Dog new];
+    
+    NSLog(@"The name of the animal is %@",[animal name]);
         
  //   }
     
