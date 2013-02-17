@@ -13,14 +13,14 @@
 int main(int argc, const char * argv[])
 {
 
-    @autoreleasepool {
+//    @autoreleasepool {
         
         // insert code here...
         //NSLog(@"Hello, World!");
         Animal *animal = [Wolf new];
         NSLog(@"The name of the animal is %@",[animal name]);
         
-    }
+ //   }
     
    
     
