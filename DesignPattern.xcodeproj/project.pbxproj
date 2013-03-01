@@ -11,6 +11,8 @@
 		ADBD47E716D0A8B200DE8EDC /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBD47E616D0A8B200DE8EDC /* Animal.m */; };
 		ADBD47EA16D0A8D200DE8EDC /* Wolf.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBD47E916D0A8D200DE8EDC /* Wolf.m */; };
 		ADBD47EC16D0A8D900DE8EDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBD47EB16D0A8D900DE8EDC /* main.m */; };
+		ADBD47F016D0B20300DE8EDC /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBD47EF16D0B20300DE8EDC /* Dog.m */; };
+		ADBD47F316D0B48C00DE8EDC /* Fox.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBD47F216D0B48C00DE8EDC /* Fox.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +37,10 @@
 		ADBD47E916D0A8D200DE8EDC /* Wolf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wolf.m; sourceTree = "<group>"; };
 		ADBD47EB16D0A8D900DE8EDC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ADBD47ED16D0A94E00DE8EDC /* DesignPattern.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = DesignPattern.1; sourceTree = "<group>"; };
+		ADBD47EE16D0B20300DE8EDC /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		ADBD47EF16D0B20300DE8EDC /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		ADBD47F116D0B48B00DE8EDC /* Fox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fox.h; sourceTree = "<group>"; };
+		ADBD47F216D0B48C00DE8EDC /* Fox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fox.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +60,11 @@
 			children = (
 				ADBD47ED16D0A94E00DE8EDC /* DesignPattern.1 */,
 				ADBD47EB16D0A8D900DE8EDC /* main.m */,
+				ADBD47F116D0B48B00DE8EDC /* Fox.h */,
+				ADBD47F216D0B48C00DE8EDC /* Fox.m */,
 				ADBD47E816D0A8D200DE8EDC /* Wolf.h */,
+				ADBD47EE16D0B20300DE8EDC /* Dog.h */,
+				ADBD47EF16D0B20300DE8EDC /* Dog.m */,
 				ADBD47E916D0A8D200DE8EDC /* Wolf.m */,
 				ADBD47E516D0A8B200DE8EDC /* Animal.h */,
 				ADBD47E616D0A8B200DE8EDC /* Animal.m */,
@@ -150,6 +160,8 @@
 				ADBD47E716D0A8B200DE8EDC /* Animal.m in Sources */,
 				ADBD47EA16D0A8D200DE8EDC /* Wolf.m in Sources */,
 				ADBD47EC16D0A8D900DE8EDC /* main.m in Sources */,
+				ADBD47F016D0B20300DE8EDC /* Dog.m in Sources */,
+				ADBD47F316D0B48C00DE8EDC /* Fox.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
